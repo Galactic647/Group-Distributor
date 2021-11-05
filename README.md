@@ -19,7 +19,7 @@ note that it's not the same as comment.
 
 If successful you will see an output in form of txt file with the distributed groups.
 
-This script can also be compiled into an exe file with pyinstaller.
+This script can also be compiled into an exe file with pyinstaller. 
 ```
 usage: pyinstaller distribute.py --console
 ```
