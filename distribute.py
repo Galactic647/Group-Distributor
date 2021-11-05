@@ -115,7 +115,7 @@ if __name__ == '__main__':
     os.system('title Group Distribution')
     os.system('color B')
 
-    if students:
+    if students: 
         main()
     else:
         error_message("There's no names\nAdd the names on \"student names.txt\"")
