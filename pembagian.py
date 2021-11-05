@@ -32,7 +32,7 @@ def distribute_by_group(n: int, k: int) -> tuple:
     if k > n:
         raise ValueError("k can't be bigger than n")
     member = math.ceil(n / k)
-    max_ = n % k
+    max_ = n % k 
     max_ = max_ if max_ else k
     return tuple([member] * max_ + [member - 1] * (k - max_))
 
